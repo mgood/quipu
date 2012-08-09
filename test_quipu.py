@@ -2,7 +2,7 @@ from __future__ import division
 
 from nose.tools import eq_, assert_raises
 
-from asteval import evaluate
+from quipu import evaluate
 
 
 supported_expressions = [

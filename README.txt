@@ -1,7 +1,9 @@
-asteval
+Quipu
 =======
 
-Evaluate simple Python expressions
+Evaluate simple Python mathmatical and logical expressions
+
+http://en.wikipedia.org/wiki/Quipu
 
 An attempt to make a safe evaluator of a subset of Python expressions.
 
@@ -24,8 +26,8 @@ Some operations may also take a lot of time or memory and DOS the process.
 
 Usage::
 
-  import asteval
-  result = asteval.evaluate('2 + 2')
+  import quipu
+  result = quipu.evaluate('2 + 2')
 
 
 See the list of "supported_expressions" in ``test_asteval.py`` for an example of
